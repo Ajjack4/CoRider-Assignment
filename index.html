@@ -13,7 +13,7 @@
     <script>
       if('serviceWorker'in Navigator){
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/service-worker.js')
+          navigator.serviceWorker.register('/serviceWorker.js')
            .then(registration => console.log('Service worker registered: ', registration))
            .catch(err => console.error('Service worker registration failed: ', err));
         });
