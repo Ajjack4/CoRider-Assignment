@@ -1,0 +1,32 @@
+
+{
+    "short_name": "CoRider",
+    "name": "Header Chat Application",
+    "icons": [
+      {
+        "src": "../../src/assets/trip.jpg",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "../../src/assets/editing.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "../../src/assets/back.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "../../src/assets/sent.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }
+  

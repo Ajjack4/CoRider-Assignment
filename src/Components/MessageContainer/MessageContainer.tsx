@@ -24,6 +24,7 @@ const handleInputChange = (e) => {
             type="text"
             value={input}
             onChange={handleInputChange}
+            id='1'
             
             placeholder="Type a message..." 
             
